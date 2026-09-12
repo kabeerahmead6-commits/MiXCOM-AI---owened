@@ -2,6 +2,11 @@ curl -fsSL https://ollama.com/install.sh | sh
 
 ollama serve &
 
+(((((((((((ஓடிக்கொண்டிருக்கும் பழைய மாடலை அழிக்க (Remove) இந்த கமாண்டை ரன் செய்யவும்:)))))))))))
+ஓடிக்கொண்டிருக்கும் பழைய மாடலை அழிக்க (Remove) இந்த கமாண்டை ரன் செய்யவும்:
+ollama rm wizardlm-uncensored
+(((((((((((( END ))))))))))))
+
 ''''''Coding & App Development (கோடிங் செய்ய): ''''''''''
 
 
@@ -166,3 +171,45 @@ ollama run wizardlm-uncensored
 
 Nomic Embed Text (Embeddings உருவாக்க):
 ollama run nomic-embed-text
+
+
+
+
+''''''''''''''Uncensored (கட்டுப்பாடுகள் இல்லாத) சிறிய AI Models: ''''''''''''''''
+
+Qwen 2.5 Coder Uncensored / Instruct (1.5B - Coder & General):
+ollama run qwen2.5:1.5b
+
+Dolphin Llama 3 (Ultra-Light / Small Uncensored):
+ollama run dolphin-llama3:8b-v2.9-q4_0
+
+Mistral / Dolphin Hermest-like Small Uncensored Models:
+ollama run dolphin-phi:latest
+
+
+
+Google Cloud Shell-ல் Ollama-வை Extract செய்ய zstd என்ற Package இல்லாததால் இந்த பிழை (Error) வந்துள்ளது.
+
+இதைச் சரிசெய்து Ollama மற்றும் Uncensored Model-ஐ இயக்க பின்வரும் கட்டளைகளை (Commands) வரிசையாக Terminal-ல் டைப் செய்து Enter அழுத்தவும்:
+
+படி 1: zstd மென்பொருளை இன்ஸ்டால் செய்ய:
+
+
+
+sudo apt-get update && sudo apt-get install -y zstd
+படி 2: Ollama-வை இன்ஸ்டால் செய்ய:
+
+
+
+curl -fsSL https://ollama.com/install.sh | sh
+படி 3: Ollama Server-ஐ பின்னணியில் ஸ்டார்ட் செய்ய:
+
+
+
+ollama serve &
+படி 4: Uncensored Model-ஐ இயக்க:
+
+
+
+ollama run dolphin-phi
+zstd இன்ஸ்டால் ஆனதும் Ollama பிழையின்றி பதிவிறக்கமாகி இயங்கத் தொடங்கிவிடும்.
