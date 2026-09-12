@@ -213,3 +213,11 @@ ollama serve &
 
 ollama run dolphin-phi
 zstd இன்ஸ்டால் ஆனதும் Ollama பிழையின்றி பதிவிறக்கமாகி இயங்கத் தொடங்கிவிடும்.
+
+
+my favorable Uncensored AI Model
+
+
+ollama run dolphin-llama3:8b-v2.9-q4_0
+
+ollama run wizardlm-uncensored:latest
