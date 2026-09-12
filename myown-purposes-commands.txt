@@ -1,0 +1,168 @@
+curl -fsSL https://ollama.com/install.sh | sh
+
+ollama serve &
+
+''''''Coding & App Development (கோடிங் செய்ய): ''''''''''
+
+
+Qwen 2.5 Coder (1.5B) - மிக வேகமானது:
+ollama run qwen2.5-coder:1.5b
+
+Qwen 2.5 Coder (7B) - திறமையானது:
+ollama run qwen2.5-coder:7b
+
+DeepSeek Coder (1.3B):
+ollama run deepseek-coder:1.3b
+
+CodeLlama (7B - Meta):
+ollama run codellama:7b
+
+
+'''''''''Reasoning & Logic (சிந்தித்து விடையளிக்க): '''''''
+
+
+DeepSeek R1 (1.5B) - வேகமானது:
+ollama run deepseek-r1:1.5b
+
+DeepSeek R1 (7B) - துல்லியமானது:
+ollama run deepseek-r1:7b
+
+
+'''''''''''General Purpose & Chat (பொதுவான உரையாடல்களுக்கு): ''''''''''
+
+
+Llama 3.2 (1B) - மிகவும் லைட்வெயிட்:
+ollama run llama3.2:1b
+
+Llama 3.2 (3B) - மிதமான அளவு:
+ollama run llama3.2:3b
+
+Gemma 2 (2B - Google):
+ollama run gemma2:2b
+
+Phi-3 Mini (3.8B - Microsoft):
+ollama run phi3:mini
+
+
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+
+''''''''Coding & Web Development (பிரத்யேக கோடிங் மாடல்கள்): ''''''''''''
+
+Starcoder2 (3B - BigCode Project):
+ollama run starcoder2:3b
+
+Codegemma (2B - Google Coder):
+ollama run codegemma:2b
+
+Stable Code (3B - Stability AI):
+ollama run stable-code
+
+Yi-Coder (1.5B - 01.AI):
+ollama run yi-coder:1.5b
+
+''''''''''Lightweight & Fast Models (வேகமான சிறிய மாடல்கள்): ''''''''''''
+
+Qwen 2.5 (0.5B - மிகச் சிறிய மாடல்):
+ollama run qwen2.5:0.5b
+
+Qwen 2.5 (1.5B):
+ollama run qwen2.5:1.5b
+
+SmolLM2 (1.7B - Hugging Face):
+ollama run smollm2:1.7b
+
+TinyLlama (1.1B):
+ollama run tinyllama
+
+'''''''''General Intelligence & Chat (பொதுவான சிந்தனை மற்றும் உரை மாடல்கள்): '''''''''''''
+
+Mistral (7B - Mistral AI):
+ollama run mistral
+
+Zephyr (7B - Fast Assistant):
+ollama run zephyr
+
+Vicuna (7B):
+ollama run vicuna
+
+Openhermes (7B):
+ollama run openhermes
+
+'''''''''Math & Logic (கணிதம் மற்றும் தருக்க ரீதியான வினாக்களுக்கு): ''''''''''''''
+
+DeepSeek Math (7B):
+ollama run deepseek-math
+
+WizardMath (7B):
+ollama run wizard-math
+
+'''''''''Multilingual (தமிழ் உட்பட பிற மொழிகள் அறிந்த மாடல்கள்): '''''''''''''
+
+Qwen 2.5 (7B):
+ollama run qwen2.5:7b
+
+Aya (8B - Cohere For AI):
+ollama run aya
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+
+'''''''''''Ultra-Lightweight Models (குறைந்த RAM கொண்ட சிஸ்டங்களுக்கு): ''''''''''''
+
+SmolLM2 (135M - மிக சிறிய மாடல்):
+ollama run smollm2:135m
+
+SmolLM2 (360M):
+ollama run smollm2:360m
+
+Qwen 2.5 Coder (0.5B - Coder):
+ollama run qwen2.5-coder:0.5b
+
+Llama 3.2 (1B - Meta):
+ollama run llama3.2:1b
+
+'''''''''Advanced Coding & Agentic Models (சிக்கலான கோடிங் செய்ய): ''''''''''''
+
+DeepSeek Coder V2 (16B):
+ollama run deepseek-coder-v2
+
+CodeGemma (7B - Google):
+ollama run codegemma:7b
+
+Phind CodeLlama (34B):
+ollama run phind-codellama
+
+CodeUp (13B):
+ollama run codeup
+
+'''''''''''Reasoning & Logic Models (சிந்தனை மற்றும் பகுப்பாய்வு): ''''''''''''''
+
+DeepSeek R1 (8B):
+ollama run deepseek-r1:8b
+
+DeepSeek R1 (14B):
+ollama run deepseek-r1:14b
+
+QwQ (32B - Qwen Reasoning):
+ollama run qwq
+
+'''''''''''Vision / Image Understanding Models (படங்களை பகுப்பாய்வு செய்ய): ''''''''''''''''
+
+LLaVA (7B - Vision Model):
+ollama run llava
+
+Moondream2 (1.4B - Lightweight Vision):
+ollama run moondream
+
+Llama 3.2 Vision (11B):
+ollama run llama3.2-vision
+
+'''''''''''''''''Specialized & Uncensored Models: ''''''''''''''''''
+
+WizardLM Uncensored (7B):
+ollama run wizardlm-uncensored
+
+Nomic Embed Text (Embeddings உருவாக்க):
+ollama run nomic-embed-text
