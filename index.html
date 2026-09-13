@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MiX AI Uncensored Chat</title>
+    <title>MiX AI Uncensored Engine</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-900 text-white min-h-screen flex flex-col items-center p-6">
@@ -44,8 +44,10 @@
                 const res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
                     method: "POST",
                     headers: {
-                        "Authorization": "Bearer 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",
-                        "Content-Type": "application/json"
+                        "Authorization": "Bearer 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",
+                        "Content-Type": "application/json",
+                        "HTTP-Referer": "https://mi-xcom-ai-owened.vercel.app",
+                        "X-Title": "MiX AI Engine"
                     },
                     body: JSON.stringify({
                         "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
